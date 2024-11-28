@@ -390,8 +390,8 @@ importers:
         specifier: ^2.1.0
         version: 2.1.0
       tinyglobby:
-        specifier: ^0.2.10
-        version: 0.2.10
+        specifier: https://pkg.pr.new/tinyglobby@a2f4b77
+        version: https://pkg.pr.new/tinyglobby@a2f4b77
       tsconfck:
         specifier: ^3.1.4
         version: 3.1.4(typescript@5.6.2)
@@ -505,8 +505,8 @@ importers:
         specifier: ^3.4.14
         version: 3.4.14
       tinyglobby:
-        specifier: ^0.2.10
-        version: 0.2.10
+        specifier: https://pkg.pr.new/tinyglobby@a2f4b77
+        version: https://pkg.pr.new/tinyglobby@a2f4b77
 
   playground/build-old: {}
 
@@ -572,8 +572,8 @@ importers:
         specifier: ^4.0.1
         version: 4.0.1(postcss@8.4.47)
       tinyglobby:
-        specifier: ^0.2.10
-        version: 0.2.10
+        specifier: https://pkg.pr.new/tinyglobby@a2f4b77
+        version: https://pkg.pr.new/tinyglobby@a2f4b77
 
   playground/css-codesplit: {}
 
@@ -6637,6 +6637,11 @@ packages:
     resolution: {integrity: sha512-Zc+8eJlFMvgatPZTl6A9L/yht8QqdmUNtURHaKZLmKBE12hNPSrqNkUp2cs3M/UKmNVVAMFQYSjYIVHDjW5zew==}
     engines: {node: '>=12.0.0'}
 
+  tinyglobby@https://pkg.pr.new/tinyglobby@a2f4b77:
+    resolution: {tarball: https://pkg.pr.new/tinyglobby@a2f4b77}
+    version: 0.2.10
+    engines: {node: '>=12.0.0'}
+
   tinypool@1.0.1:
     resolution: {integrity: sha512-URZYihUbRPcGv95En+sz6MfghfIc2OJ1sv/RmhWZLouPY0/8Vo80viwPvg3dlaS9fuq7fQMEfgRRK7BBZThBEA==}
     engines: {node: ^18.0.0 || >=20.0.0}
@@ -12366,6 +12371,11 @@ snapshots:
   tinyexec@0.3.1: {}
 
   tinyglobby@0.2.10:
+    dependencies:
+      fdir: 6.4.2(picomatch@4.0.2)
+      picomatch: 4.0.2
+
+  tinyglobby@https://pkg.pr.new/tinyglobby@a2f4b77:
     dependencies:
       fdir: 6.4.2(picomatch@4.0.2)
       picomatch: 4.0.2
